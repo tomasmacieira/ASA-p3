@@ -2,7 +2,7 @@
 
 ## Introduction
 This project was made in the Analysis and synthesis of algorithms course. Made to deepen our knowledge about linear 
-programming. This program was implemented in python using the [PuLP library](https://https://pypi.org/project/PuLP/),
+programming. This program was implemented in python using the [PuLP library](https://pypi.org/project/PuLP/),
 and the [GLPK](https://www.gnu.org/software/glpk/) PL solver.
 
 ## Description
