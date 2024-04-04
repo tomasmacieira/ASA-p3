@@ -2,7 +2,7 @@
 
 ## Introduction
 This project was made in the Analysis and synthesis of algorithms course. Made to deepen our knowledge about linear 
-programming. This program was implemented in python using the [PuLP library](https://pypi.org/project/PuLP/),
+programming. The program was implemented in python using the [PuLP library](https://pypi.org/project/PuLP/),
 and the [GLPK](https://www.gnu.org/software/glpk/) PL solver.
 
 ## Description
@@ -25,7 +25,7 @@ sudo apt-get install glpk-utils
 
 ## Running
 ```s
-python3 p3.py
+python3 p3.py < "{input.txt}"
 ```
 
 ## Input format
@@ -35,8 +35,4 @@ The next `n` lines receive `{toy_value} {toy_production_limt}`
 
 The next `p` lines receive `{package_value} {toy_1} {toy_2} {toy_3}`
 
-Input by file
-```s
-python3 p3.py < {file}
-```
 
