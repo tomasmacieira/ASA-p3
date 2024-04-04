@@ -15,7 +15,7 @@ Each toy has a specific production limit and there is also a general production 
 ## Installing
 PuLP installation
 ```s
-python -m pip install pulp
+python3 -m pip install pulp
 ```
 
 PL solver
@@ -34,4 +34,9 @@ The first line receives `{num_of_toys} {num_of_packages} {general_production_lim
 The next `n` lines receive `{toy_value} {toy_production_limt}`
 
 The next `p` lines receive `{package_value} {toy_1} {toy_2} {toy_3}`
+
+Input by file
+```s
+python3 p3.py < {file}
+```
 
